@@ -27,7 +27,7 @@
       height: 1.5rem;
     }
   }
-  @media (min-width: 1024px) {
+  @media (min-width: 1440px) {
     /* 大屏幕时每行显示更多图标 */
     li {
       flex: 0 0 calc((100% - 11 * 8px) / 12);
