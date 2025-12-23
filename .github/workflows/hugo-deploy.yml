@@ -27,7 +27,7 @@ jobs:
         - name: Deploy Web
           uses: peaceiris/actions-gh-pages@v4
           with:
-              github_token: ${{ secrets.HUGO_DEPLOY }}
+              personal_token: ${{ secrets.HUGO_DEPLOY }}
               external_repository: Dora-Honor/mskk-hugo
               publish_branch: gh-pages
               publish_dir: ./public
