@@ -381,11 +381,15 @@ menu:
           params:
               icon: brand-steam
 
-        # - identifier: hoyolab
-        #   name: HoYoLab
-        #   url: https://www.hoyolab.com/home/index?uid=300847631
-        #   params:
-        #       icon: brand-hoyolab
+        - identifier: hoyolab
+          name: HoYoLab
+          url: https://www.hoyolab.com/home/index?uid=300847631
+          params:
+              icon: brand-hoyolab
+
+        - identifier: miyoushe
+          name: 米游社
+          url: https://www.miyoushe.com/ys/accountCenter/postList?id=295708491
 
 related:
     includeNewer: true

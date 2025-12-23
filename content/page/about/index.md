@@ -1,6 +1,6 @@
 ---
 title: '关于'
-description: Hugo, the world's fastest framework for building websites
+description: 关于我
 date: '2019-02-28'
 layout: 'about'
 slug: 'about'
