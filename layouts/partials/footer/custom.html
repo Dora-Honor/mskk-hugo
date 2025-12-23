@@ -1,7 +1,113 @@
 <style>
   body {
-    background: url({{ (resources.Get "background/5040-5.3.webp").Permalink }}) no-repeat center top;
+    background: url({{ (resources.Get "background/5040-5.3.webp").Permalink}}) no-repeat center top;
     background-size: cover;
     background-attachment: fixed;
+  },
+
+  @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100..900&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+SC:wght@100..900&family=Noto+Sans+TC:wght@100..900&family=Noto+Serif+HK:wght@200..900&family=Noto+Serif+JP:wght@200..900&family=Noto+Serif+KR:wght@200..900&family=Noto+Serif+SC:wght@200..900&family=Noto+Serif+TC:wght@200..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+  @font-face {
+    font-family: "MiSans";
+    font-display: swap;
+    font-weight: 100;
+    font-style: normal;
+    src: local("MiSans-Thin"),
+      url('{{ (resources.Get "font/MiSans-Thin.woff2").Permalink }}') format("woff2"),
+      url('{{ (resources.Get "font/MiSans-Thin.woff").Permalink }}') format("woff");
+  }
+
+  @font-face {
+    font-family: "MiSans";
+    font-display: swap;
+    font-weight: 200;
+    font-style: normal;
+    src: local("MiSans-ExtraLight"),
+      url('{{ (resources.Get "font/MiSans-ExtraLight.woff2").Permalink }}') format("woff2"),
+      url('{{ (resources.Get "font/MiSans-ExtraLight.woff").Permalink }}') format("woff");
+  }
+
+  @font-face {
+    font-family: "MiSans";
+    font-display: swap;
+    font-weight: 300;
+    font-style: normal;
+    src: local("MiSans-Light"),
+      url('{{ (resources.Get "font/MiSans-Light.woff2").Permalink }}') format("woff2"),
+      url('{{ (resources.Get "font/MiSans-Light.woff").Permalink }}') format("woff");
+  }
+
+  @font-face {
+    font-family: "MiSans";
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+    src: local("MiSans-Normal"), local("MiSans"),
+      url('{{ (resources.Get "font/MiSans-Normal.woff2").Permalink }}') format("woff2"),
+      url('{{ (resources.Get "font/MiSans-Normal.woff").Permalink }}') format("woff");
+  }
+
+  @font-face {
+    font-family: "MiSans";
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+    src: local("MiSans-Medium"),
+      url('{{ (resources.Get "font/MiSans-Medium.woff2").Permalink }}') format("woff2"),
+      url('{{ (resources.Get "font/MiSans-Medium.woff").Permalink }}') format("woff");
+  }
+
+  @font-face {
+    font-family: "MiSans";
+    font-display: swap;
+    font-weight: 600;
+    font-style: normal;
+    src: local("MiSans-SemiBold"),
+      url('{{ (resources.Get "font/MiSans-SemiBold.woff2").Permalink }}') format("woff2"),
+      url('{{ (resources.Get "font/MiSans-SemiBold.woff").Permalink }}') format("woff");
+  }
+
+  @font-face {
+    font-family: "MiSans";
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+    src: local("MiSans-Bold"),
+      url('{{ (resources.Get "font/MiSans-Bold.woff2").Permalink }}') format("woff2"),
+      url('{{ (resources.Get "font/MiSans-Bold.woff").Permalink }}') format("woff");
+  }
+
+  @font-face {
+    font-family: "MiSans";
+    font-display: swap;
+    font-weight: 800;
+    font-style: normal;
+    src: local("MiSans-Heavy"),
+      url('{{ (resources.Get "font/MiSans-Heavy.woff2").Permalink }}') format("woff2"),
+      url('{{ (resources.Get "font/MiSans-Heavy.woff").Permalink }}') format("woff");
+  }
+
+  @font-face {
+    font-family: "MiSans";
+    font-display: swap;
+    font-weight: 900;
+    font-style: normal;
+    src: local("MiSans-Demibold"),
+      url('{{ (resources.Get "font/MiSans-Demibold.woff2").Permalink }}') format("woff2"),
+      url('{{ (resources.Get "font/MiSans-Demibold.woff").Permalink }}') format("woff");
+  }
+
+  @font-face {
+    font-family: "HYWenHei 85W";
+    font-display: swap;
+    font-weight: normal;
+    font-style: normal;
+    src: url('{{ (resources.Get "font/SDK_SC_Web.woff2").Permalink }}') format("woff2"),
+      url('{{ (resources.Get "font/SDK_SC_Web.woff").Permalink }}') format("woff");
+  }
+  
+  :root {
+    --base-font-family: "HYWenHei 85W", "MiSans", "Roboto", "Noto Sans SC", "Noto Sans TC", "Noto Sans HK", "Noto Sans JP", "Noto Sans KR", sans-serif;
+    --code-font-family: "Roboto Mono", "HYWenHei 85W", "MiSans", "Noto Sans Mono", monospace;
   }
 </style>
