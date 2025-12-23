@@ -1,0 +1,30 @@
+/* 社交图标多行布局 */
+.menu-social {
+  display: flex;
+  flex-wrap: wrap; /* 允许图标换行 */
+  justify-content: center; /* 图标水平居中 */
+  margin: auto; /* 容器居中，可选 */
+
+  li {
+    /* 计算每个图标的宽度：容器宽度减去间隙后，均分8份 */
+    flex: 0 0 calc((100% - 7 * 8px) / 8);
+    /* 设置图标间距 */
+    margin: 4px;
+    /* 确保图标在格子内居中 */
+    text-align: center;
+    
+    a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      /* 保持图标为方形 */
+      aspect-ratio: 1 / 1;
+    }
+    
+    .tabler-icon {
+      width: 1.5rem; /* 控制图标自身大小 */
+      height: 1.5rem;
+    }
+  }
+}
