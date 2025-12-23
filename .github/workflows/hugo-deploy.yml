@@ -2,9 +2,12 @@ name: Deploy Hugo to GitHub Pages
 
 # 代码提交到 main 分支时触发 GitHub Actions
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
+  schedule:
+    - cron: '0 * * * *'  # 每天每小时触发一次
 
 jobs:
   deploy:
