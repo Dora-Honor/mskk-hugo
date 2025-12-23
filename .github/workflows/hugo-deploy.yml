@@ -34,7 +34,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
-          deploy_key: ${{ secrets.HUGO_DEPLOY }}
+          personal_token: ${{ secrets.HUGO_DEPLOY }}
           external_repository: Dora-Honor/mskk-hugo
           publish_branch: gh-pages
           publish_dir: ./public
