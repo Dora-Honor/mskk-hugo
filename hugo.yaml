@@ -1,8 +1,9 @@
 baseurl: https://hugo.dorahonor.me/
 languageCode: zh-cn
 theme: hugo-theme-stack
-title: Example Site
-copyright: Example Person
+title: mskk 的个人博客
+author: Dora Honor
+copyright: Dora Honor
 
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
@@ -15,34 +16,34 @@ hasCJKLanguage: true
 languages:
     # en:
     #     languageName: English
-    #     title: Example Site
+    #     title: mskk’s Personal Blog
     #     weight: 1
     #     params:
     #         sidebar:
-    #             subtitle: Example description
+    #             subtitle: Everyone I like
     zh-cn:
         languageName: 简体中文
-        title: 演示站点
+        title: mskk 的个人博客
         weight: 2
         params:
             sidebar:
-                subtitle: 演示说明
+                subtitle: 大家我都喜欢哦
 
     # zh-tw:
     #     languageName: 正體中文
-    #     title: 演示站點
+    #     title: mskk 的個人部落格
     #     weight: 2
     #     params:
     #         sidebar:
-    #             subtitle: 演示說明
+    #             subtitle: 大家我都喜歡哦
 
     # ja:
     #     languageName: 日本語
-    #     title: サンプルサイト
+    #     title: mskk のブログ
     #     weight: 2
     #     params:
     #         sidebar:
-    #             subtitle: サンプル説明
+    #             subtitle: 私はみんなが大好きだよ
 
 services:
     # Change it to your Disqus shortname before using
@@ -75,7 +76,7 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 🍥
+        emoji: 😘
         subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         avatar:
             enabled: true
@@ -92,7 +93,7 @@ params:
 
     comments:
         enabled: true
-        provider: disqus
+        provider: waline
 
         disqusjs:
             shortname:
@@ -127,18 +128,43 @@ params:
 
         # Waline client configuration see: https://waline.js.org/en/reference/component.html
         waline:
-            serverURL:
-            lang:
-            pageview:
+            serverURL: https://vercel-waline.dorahonor.me/
+            lang: zh-CN
+            pageview: false
+            reaction: true
             emoji:
                 - https://unpkg.com/@waline/emojis@1.0.1/weibo
+                - https://unpkg.com/@waline/emojis@1.1.0/alus
+                - https://unpkg.com/@waline/emojis@1.1.0/bilibili
+                - https://unpkg.com/@waline/emojis@1.1.0/qq
+                - https://unpkg.com/@waline/emojis@1.1.0/tieba
+                - https://unpkg.com/@waline/emojis@1.1.0/tw-emoji
+                - https://emoji.shojo.cn/bili/webp/乖巧宝宝
+                - https://emoji.shojo.cn/bili/webp/乖巧宝宝%20清凉一夏
+                - https://emoji.shojo.cn/bili/webp/原神
+                - https://emoji.shojo.cn/bili/webp/原神-须弥
+                - https://emoji.shojo.cn/bili/webp/原神·巡林奇遇
+                - https://emoji.shojo.cn/bili/webp/崩坏：星穹铁道
+                - https://emoji.shojo.cn/bili/webp/崩坏3
+                - https://emoji.shojo.cn/bili/webp/崩坏3·光辉矢愿
+                - https://emoji.shojo.cn/bili/webp/崩坏3·天穹流星
+                - https://emoji.shojo.cn/bili/webp/崩坏3·终焉归始
+                - https://emoji.shojo.cn/bili/webp/崩坏3·雷鸣彻空
+                - https://emoji.shojo.cn/bili/webp/崩坏学园2
+                - https://emoji.shojo.cn/bili/webp/明日方舟
+                - https://emoji.shojo.cn/bili/webp/明日方舟音律联觉
+                - https://emoji.shojo.cn/bili/webp/明日方舟·音律联觉-灯下定影
+                - https://emoji.shojo.cn/bili/webp/我的世界
+                - https://emoji.shojo.cn/bili/webp/tv_小电视_动图
+                - https://emoji.shojo.cn/bili/webp/罗小黑战记
+                - https://emoji.shojo.cn/bili/webp/2233娘
             requiredMeta:
                 - name
                 - email
-                - url
+                # - url
             locale:
                 admin: Admin
-                placeholder:
+                placeholder: 说点什么吧（昵称和邮箱为必填项。为了你能及时收到相关回复的邮件通知，请确保邮箱的正确性！）
 
         twikoo:
             envId:
