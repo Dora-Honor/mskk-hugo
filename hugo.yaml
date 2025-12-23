@@ -77,11 +77,11 @@ params:
 
     sidebar:
         emoji: 😘
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        subtitle: 大家我都喜欢哦
         avatar:
             enabled: true
             local: true
-            src: img/avatar.png
+            src: img/user.jpg
 
     article:
         math: false
@@ -251,15 +251,141 @@ menu:
     social:
         - identifier: github
           name: GitHub
-          url: https://github.com/CaiJimmy/hugo-theme-stack
+          url: https://github.com/Dora-Honor
           params:
               icon: brand-github
 
-        - identifier: twitter
-          name: Twitter
-          url: https://twitter.com
+        - identifier: gitee
+          name: Gitee (码云)
+          url: https://gitee.com/Dora-Honor
           params:
-              icon: brand-twitter
+              icon: brand-gitee
+
+        - identifier: git
+          name: GitHub 源代码
+          url: https://github.com/Dora-Honor/mskk-hugo
+          params:
+              icon: brand-git
+
+        - identifier: gmail
+          name: Gmail
+          url: mailto:dorahonor@gmail.com
+          params:
+              icon: brand-gmail
+
+        - identifier: outlook
+          name: Outlook
+          url: mailto:dorahonor903@outlook.com
+          params:
+              icon: brand-outlook
+
+        - identifier: netease-mail
+          name: 网易邮箱
+          url: mailto:dorahonor903@163.com
+          params:
+              icon: brand-netease-mail
+
+        - identifier: telegram
+          name: Telegram
+          url: https://t.me/dora_honor
+          params:
+              icon: brand-telegram
+
+        - identifier: qq
+          name: QQ
+          url: https://qm.qq.com/q/uSLf4n32JW
+          params:
+              icon: brand-qq
+
+        - identifier: youtube
+          name: YouTube
+          url: https://youtube.com/@dorahonor_mskk
+          params:
+              icon: brand-youtube
+
+        - identifier: bilibili
+          name: 哔哩哔哩
+          url: https://space.bilibili.com/68026760
+          params:
+              icon: brand-bilibili
+
+        - identifier: zhihu
+          name: 知乎
+          url: https://www.zhihu.com/people/dorahonor
+          params:
+              icon: brand-zhihu
+
+        - identifier: redbook
+          name: 小红书
+          url: https://www.xiaohongshu.com/user/profile/63b56120000000002702a843
+          params:
+              icon: brand-redbook
+
+        - identifier: coolapk
+          name: 酷安
+          url: https://www.coolapk.com/u/1744954
+          params:
+              icon: brand-coolapk
+
+        - identifier: weibo
+          name: 微博
+          url: https://weibo.com/u/5635501226
+          params:
+              icon: brand-weibo
+
+        - identifier: twitter
+          name: X (Twitter)
+          url: https://x.com/dora_honor
+          params:
+              icon: brand-x
+
+        - identifier: bluesky
+          name: Bluesky
+          url: https://bsky.app/profile/dora-honor.bsky.social
+          params:
+              icon: brand-bluesky
+
+        - identifier: threads
+          name: Threads
+          url: https://www.threads.net/@dora_honor
+          params:
+              icon: brand-threads
+
+        - identifier: instagram
+          name: Instagram
+          url: https://www.instagram.com/dora_honor
+          params:
+              icon: brand-instagram
+
+        - identifier: facebook
+          name: Facebook
+          url: https://www.facebook.com/dora.honor.944
+          params:
+              icon: brand-facebook
+
+        - identifier: spotify
+          name: Spotify
+          url: https://open.spotify.com/user/31tnk5f4als6u4r7kcg2mj2dqq4a
+          params:
+              icon: brand-spotify
+
+        - identifier: netease-cloud-music
+          name: 网易云音乐
+          url: https://music.163.com/#/user/home?id=436313178
+          params:
+              icon: brand-netease-cloud-music
+
+        - identifier: steam
+          name: Steam
+          url: https://steamcommunity.com/id/dorahonor
+          params:
+              icon: brand-steam
+
+        # - identifier: hoyolab
+        #   name: HoYoLab
+        #   url: https://www.hoyolab.com/home/index?uid=300847631
+        #   params:
+        #       icon: brand-hoyolab
 
 related:
     includeNewer: true
