@@ -82,7 +82,7 @@ params:
         avatar:
             enabled: true
             local: true
-            src: img/user.jpg
+            src: img/user.webp
 
     article:
         math: false
