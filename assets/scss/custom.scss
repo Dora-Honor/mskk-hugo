@@ -2,35 +2,58 @@
 .menu-social {
   display: flex;
   flex-wrap: wrap; /* 允许图标换行 */
+  gap: 8px; /* 图标间距 */
   justify-content: center; /* 图标水平居中 */
   margin: auto; /* 容器居中，可选 */
 
-  li {
-    /* 计算每个图标的宽度：容器宽度减去间隙后，均分8份 */
-    flex: 0 0 calc((100% - 7 * 8px) / 8);
-    /* 设置图标间距 */
-    margin: 4px;
-    /* 确保图标在格子内居中 */
-    text-align: center;
+  // li {
+  //   /* 计算每个图标的宽度：容器宽度减去间隙后，均分8份 */
+  //   flex: 0 0 calc((100% - 7 * 8px) / 8);
+  //   /* 设置图标间距 */
+  //   margin: 4px;
+  //   /* 确保图标在格子内居中 */
+  //   text-align: center;
     
-    a {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-      /* 保持图标为方形 */
-      aspect-ratio: 1 / 1;
-    }
+  //   a {
+  //     display: inline-flex;
+  //     align-items: center;
+  //     justify-content: center;
+  //     width: 100%;
+  //     /* 保持图标为方形 */
+  //     aspect-ratio: 1 / 1;
+  //   }
     
-    .tabler-icon {
-      width: 1.5rem; /* 控制图标自身大小 */
-      height: 1.5rem;
-    }
-  }
-  @media (min-width: 1440px) {
-    /* 大屏幕时每行显示更多图标 */
-    li {
-      flex: 0 0 calc((100% - 11 * 8px) / 12);
-    }
-  }
+  //   .tabler-icon {
+  //     width: 1.5rem; /* 控制图标自身大小 */
+  //     height: 1.5rem;
+  //   }
+  // }
+  // @media (min-width: 1440px) {
+  //   /* 大屏幕时每行显示更多图标 */
+  //   li {
+  //     flex: 0 0 calc((100% - 11 * 8px) / 12);
+  //   }
+  // }
 }
+
+:root {
+    --card-background: rgba(255, 255, 255, .75);
+    --main-top-padding: 35px;
+    --body-background: #f5f5fa;
+    --accent-color: #4c677e;
+    --accent-color-darker: #2c3e50;
+    --accent-color-text: #fff;
+    --body-text-color: #c5c1c1;
+    --tag-border-radius: 4px;
+    --section-separation: 40px;
+    --scrollbar-thumb: hsl(0, 0%, 85%);
+    --scrollbar-track: var(--body-background);
+}
+
+// body {
+//     background-image: url('background/5040-5.3.webp'); // 替换成你的背景图片路径
+//     background-size: cover;
+//     // backdrop-filter: blur(10px); // 调整数值改变模糊程度
+//     background-color: rgba(0, 0, 0, 0.5)
+//     /* 还可以添加其他背景相关属性 */
+// }
