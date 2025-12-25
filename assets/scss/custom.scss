@@ -50,6 +50,10 @@
     // --scrollbar-track: var(--body-background);
 }
 
+:root[data-scheme=dark] {
+  --card-background: rgba(66, 66, 66, .75);
+}
+
 // body {
 //     background-image: url('background/5040-5.3.webp'); // 替换成你的背景图片路径
 //     background-size: cover;
