@@ -12,6 +12,10 @@ links:
   - title: 我的 Hexo 博客
     description: 使用 Hexo 框架和 Butterfly 主题搭建的主博客
     website: https://dorahonor.me
+    image: https://cdn.jsdelivr.net/gh/Dora-Honor/mskk-blog/favicon.ico
+  - title: 我的 Hexo 博客 2
+    description: 使用 Hexo 框架和 NexT 主题搭建的博客
+    website: https://hexonext.dorahonor.me
     image: hexo-logo-avatar.png
   - title: 我的 VuePress-Theme-Hope 博客
     description: 使用 VuePress 框架和 Hope 主题搭建的博客
