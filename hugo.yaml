@@ -129,7 +129,13 @@ params:
 
         # Waline client configuration see: https://waline.js.org/en/reference/component.html
         waline:
-            serverURL: https://vercel-waline.dorahonor.me/
+            serverURL: https://comment.dorahonor.me/
+            # serverURL1: https://comment.dorahonor.me/
+                # UI: https://commment.dorahonor.me/ui/
+            # serverURL2: https://vercel-waline.dorahonor.me/
+                # UI: https://vercel-waline.dorahonor.me/ui/
+            # serverURL3: https://waline.dorahonor.me/.netlify/functions/comment
+                # UI: https://waline.dorahonor.me/.netlify/functions/comment/ui/
             lang: zh-CN
             pageview: false
             reaction: true
